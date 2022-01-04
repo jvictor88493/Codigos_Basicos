@@ -1,0 +1,7 @@
+def maior_menor(a, b):
+  if a>b:
+    return 'O numero {} é maior que {}'.format(a, b)
+  elif a == b:
+    return 'Os valores são iguais'
+  else:
+    return 'O numero {} é maior que {}'.format(b, a)
